@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.main .page{
+    width: 100%;
+    height: 100vh;
+}
+
+.main .page1 .navbar{
+    margin: auto;
+    padding: 1.05rem 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .page1 .navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.main .page1 .navbar ul li{
+    list-style: none;
+}
+
+.main .page1 .navbar ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(7, 7, 37);
+}
+
+.main .page1 .container {
+    margin-top: 60px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main .page1 .container .box1 h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.main .page1 .container .box1 p{
+    font-size: 1rem;
+    margin: 20px auto;
+}
+
+.main .page1 .container .box1 input{
+    width: 270px;
+    font-size: 1rem;
+    padding: 8px 20px;
+}
+
+.main .page1 .container .box1 .btn{
+    padding: 10px 20px;
+    width: 150px;
+    background-color: rgb(102, 102, 214);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    box-shadow: 2px 2px 20px 5px #00000018;
+}
+
+.main .page1 .container .box2{
+    width: 500px;
+    height: 500px;
+}
+
+.main .page1 .container .box2 img{
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main .page2{
+    width: 100%;
+    height: 100vh;
+    background: url('images/bg-curve-desktop.svg');
+}
+
+
+.main .page2 .container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+
+}
+
+
+.main .page2 .container .box1 h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.main .page2 .container .box1 p{
+    font-size: 1rem;
+    margin: 20px auto;
+}
+
+.main .page2 .container .box1 .fylo{
+    font-size: 1rem;
+    margin: 20px auto;
+    color: palegreen;
+    border-bottom: 2px solid palegreen;
+    align-self: flex-start;
+}
+
+
+.main .page2 .container .box2{
+    width: 500px;
+    height: 500px;
+}
+
+.main .page2 .container .box2 img{
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page2 .testimonial{
+    width: 350px;
+    height: 330px;
+    box-shadow: 5px 5px 25px 25px #0000000f;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.page2 .testimonial img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.main .page3{
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(82, 82, 177);
+}
+
+
+.main .page3 .container {
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+
+.main .page3 .container .box1 h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.main .page3 .container .box1 p{
+    font-size: 1rem;
+    margin: 20px auto;
+}
+
+.main .page3 .container .email input{
+    width: 400px;
+    font-size: 1rem;
+    padding: 8px 20px;
+}
+
+.main .page3 .container .email .btn{
+    padding: 10px 20px;
+    width: 150px;
+    background-color: rgb(17, 17, 105);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    box-shadow: 2px 2px 20px 5px #00000018;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(20, 20, 108, 0.936);
+    color: #fff;
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer .line1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer .line1 li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .line1 li{
+    list-style: none;
+}
+
+.footer .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .line img{
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 569px) {
+    
+}
+
+@media screen and (max-width: 410px) {
+    
+}
